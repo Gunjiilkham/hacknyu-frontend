@@ -16,3 +16,17 @@ A Chrome extension that provides real-time security scanning for APIs and code.
 5. Select the `hacknyu-frontend` directory
 
 ## Directory Structure
+├── manifest.json # Chrome extension configuration
+├── popup.html # Extension popup interface
+├── popup.js # Main extension logic
+├── popup.css # Styling
+
+## Usage
+1. Click the CyberCTRL icon in Chrome
+2. Click "Start Scan" to analyze the current page
+3. View security score and alerts
+4. Check detailed security warnings if any risks are detected
+
+## Requirements
+- Chrome Browser
+- Backend server running on port 8001
