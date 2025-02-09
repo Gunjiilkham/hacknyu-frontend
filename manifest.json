@@ -1,10 +1,19 @@
 {
-  "name": "DevGuard",
-  "description": "A real-time, AI-powered browser extension or CLI tool that warns developers before they copy-paste or install suspicious code, APIs, or libraries.",
-  "version": "1.0",
   "manifest_version": 3,
+  "name": "DevGuarder",
+  "version": "1.0",
+  "description": "Reverse Phishing Detector for Devs",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://localhost:8000/*"
+  ],
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": "devguard_icon.png"
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
   }
 }
