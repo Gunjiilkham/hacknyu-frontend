@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "DevGuarder",
+  "name": "CyberCTRL",
   "version": "1.0",
   "description": "Reverse Phishing Detector for Devs",
   "permissions": [
